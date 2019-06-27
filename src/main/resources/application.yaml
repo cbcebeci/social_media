@@ -1,0 +1,12 @@
+spring:
+  image:
+    destination: C:\Users\bassa\Desktop\project-images\
+  datasource:
+    username: root
+    password: mymyheyhey1990
+    url: jdbc:mysql://localhost:3306/project_db?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+logging:
+  level:
+    org:
+      springframework: DEBUG

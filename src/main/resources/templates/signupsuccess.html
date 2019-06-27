@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="#" th:href="@{/StyleLogin.css}" rel="stylesheet" />
+    <title>Login</title>
+</head>
+
+<body>
+
+<form action="#" th:action="@{/login}" th:object="${user}" method="post">
+
+
+    <div class="container">
+
+        <h1 class="logintext"> Welcome! </h1>
+        <p> Thanks for signing up. Now please login to start.</p>
+
+
+
+    </div>
+
+    <div class="container" >
+
+
+        <a href="/login"> <button type="button" class="loginbtn">Log me in!</button> </a>
+
+    </div>
+</form>
